@@ -57,7 +57,7 @@ At the start of the Colab notebook, install all packages:
    * Display prediction
   
 ## 📂 Folder Structure
-```bash
+```
 MelodyMosaic/
 ├── GTZAN/                     # Dataset folder (optional if downloaded directly in Colab)
 ├── melody_mosaic.ipynb        # Main Google Colab notebook (training + Streamlit app setup)
@@ -66,7 +66,6 @@ MelodyMosaic/
 ├── Trained_model.keras         # Saved trained model
 ├── Training_history/           # Training logs, plots, metrics
 ├── README.md                   # Project documentation (this file)
-'''
 
 
 ## Explanation for Setting Path to a Single Audio File (User Configurable)
