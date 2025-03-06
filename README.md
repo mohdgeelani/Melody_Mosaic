@@ -57,8 +57,17 @@ At the start of the Colab notebook, install all packages:
    * Display prediction
   
 ## 📂 Folder Structure
+```bash
+MelodyMosaic/
+├── GTZAN/                     # Dataset folder (optional if downloaded directly in Colab)
+├── melody_mosaic.ipynb        # Main Google Colab notebook (training + Streamlit app setup)
+├── app.py                      # Streamlit app script
+├── assets/                     # Plots, images, or screenshots (optional)
+├── Trained_model.keras         # Saved trained model
+├── Training_history/           # Training logs, plots, metrics
+├── README.md                   # Project documentation (this file)
+'''bash
 
-MelodyMosaic/ ├── GTZAN/ # Dataset folder (optional if downloaded directly in Colab) ├── melody_mosaic.ipynb # Main Google Colab notebook (training + Streamlit app setup) ├── app.py # Streamlit app script ├── assets/ # Plots, images, or screenshots (optional) ├── Trained_model.keras # Saved trained model ├── Training_history/ # Training logs, plots, metrics ├── README.md # Project documentation (this file)
 
 ## Explanation for Setting Path to a Single Audio File (User Configurable)
 To experiment with a single audio file (for testing feature extraction, visualization, etc.), you can manually set the data_path to point to the folder containing your audio files. Then, specify the file name you want to test.
