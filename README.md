@@ -66,7 +66,7 @@ MelodyMosaic/
 ├── Trained_model.keras         # Saved trained model
 ├── Training_history/           # Training logs, plots, metrics
 ├── README.md                   # Project documentation (this file)
-'''bash
+'''
 
 
 ## Explanation for Setting Path to a Single Audio File (User Configurable)
