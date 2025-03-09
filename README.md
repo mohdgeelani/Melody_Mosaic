@@ -81,7 +81,7 @@ selected_file = os.path.join(data_path, 'blues.00000.wav')
 
 ## Explanation for Full Dataset Path (data_dir)
 To load and preprocess the entire GTZAN dataset, set data_dir to the folder containing all genre subfolders.
-### Set this to the directory where all genre folders are stored
+## Set this to the directory where all genre folders are stored
 data_dir = '/path/to/your/GTZAN/genres_original'
 
 
