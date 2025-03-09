@@ -1,3 +1,5 @@
+![Project Screenshot](assets/picture1.png)
+
 # 🎶 Melody Mosaic
 
 Melody Mosaic is a music genre classification project that combines machine learning with audio signal processing. Using the GTZAN Dataset, deep learning models are trained to classify songs into genres based on their audio features. The project also includes a Streamlit app where users can upload audio files and get genre predictions.
