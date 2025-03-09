@@ -82,13 +82,14 @@ selected_file = os.path.join(data_path, 'blues.00000.wav')
 To load and preprocess the entire GTZAN dataset, set data_dir to the folder containing all genre subfolders.
 data_dir = '/path/to/your/GTZAN/genres_original'
 
-## 📊 Results
-| Metric             | Value  |
-|--------------------|--------|
-| **Training Accuracy** | 98.54% |
-| **Training Loss**      | 0.0398 |
-| **Validation Accuracy** | 92.32% |
-| **Validation Loss**     | 0.3273 |
+## 📊 Results  
+| **Metric**             | **Value** |
+|------------------------|------------|
+| **Training Accuracy**   | 99.19%     |
+| **Training Loss**       | 0.0283     |
+| **Validation Accuracy** | 92.32%     |
+| **Validation Loss**     | 0.3273     |
+
 
 
 
