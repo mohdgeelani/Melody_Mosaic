@@ -37,7 +37,7 @@ At the start of the Colab notebook, install all packages:
 !pip install matplotlib==3.10.0
 !pip install librosa==0.10.2.post1
 !pip install streamlit==1.32.0
-!pip install pyngrok   # Optional if using ngrok
+!pip install scikit-learn==1.6.1
 
 ## 🧰 Project Workflow
 1. Data Preprocessing
@@ -71,18 +71,24 @@ MelodyMosaic/
 ## Explanation for Setting Path to a Single Audio File (User Configurable)
 To experiment with a single audio file (for testing feature extraction, visualization, etc.), you can manually set the data_path to point to the folder containing your audio files. Then, specify the file name you want to test.
 For example:
-### Set this path to the folder where your audio files are stored
+#### Set this path to the folder where your audio files are stored
 data_path = '/path/to/your/GTZAN/genre_folder'
 
 #### Example: Testing with the first file from the 'blues' genre
 selected_file = os.path.join(data_path, 'blues.00000.wav')
-
 ✅ You can modify the data_path and selected_file to test files from any genre (e.g., 'classical', 'rock', etc.) based on how your dataset is organized.
 
-## Explanation for Full Dataset Path (data_dir)
+#### Explanation for Full Dataset Path (data_dir)
 To load and preprocess the entire GTZAN dataset, set data_dir to the folder containing all genre subfolders.
-## Set this to the directory where all genre folders are stored
 data_dir = '/path/to/your/GTZAN/genres_original'
+
+## 📊 Results
+| Metric             | Value  |
+|--------------------|--------|
+| **Training Accuracy** | 98.54% |
+| **Training Loss**      | 0.0398 |
+| **Validation Accuracy** | 92.32% |
+| **Validation Loss**     | 0.3273 |
 
 
 
