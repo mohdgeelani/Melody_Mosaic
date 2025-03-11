@@ -34,7 +34,7 @@ The GTZAN Dataset contains 1000 audio tracks, each 30 seconds long, spanning 10 
 ## ⚙️ Colab Setup (Training + Streamlit)
 At the start of the Colab notebook, install all packages:
 
-``` !pip install tensorflow==2.18.0 !pip install numpy==1.26.4 !pip install matplotlib==3.10.0 !pip install librosa==0.10.2.post1 !pip install streamlit==1.32.0 !pip install scikit-learn==1.4.1.post1 ```
+<pre> ``` !pip install tensorflow==2.18.0 !pip install numpy==1.26.4 !pip install matplotlib==3.10.0 !pip install librosa==0.10.2.post1 !pip install streamlit==1.32.0 !pip install scikit-learn==1.4.1.post1 ``` </pre>
 
 ## 🧰 Project Workflow
 1. Data Preprocessing
