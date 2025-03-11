@@ -31,7 +31,7 @@ st.write("---")
 @st.cache_resource
 def load_model():
     st.info("🔄 Loading model...")
-    return tf.keras.models.load_model("Trained_model (2).keras")
+    return tf.keras.models.load_model("Trained_model.keras")
 
 model = load_model()
 
