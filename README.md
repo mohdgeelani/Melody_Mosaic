@@ -39,7 +39,7 @@ At the start of the Colab notebook, install all packages:
 !pip install matplotlib==3.10.0
 !pip install librosa==0.10.2.post1
 !pip install streamlit==1.32.0
-!pip install scikit-learn==1.6.1
+!pip install scikit-learn==1.4.1.post1
 
 ## 🧰 Project Workflow
 1. Data Preprocessing
